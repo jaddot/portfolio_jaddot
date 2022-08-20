@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: RGB(240, 241, 240);
+  padding: 2rem;
+  font-size: 2.2rem;
+  display: block;
+}
+
+a:hover {
+  color: purple;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+#navbar {
+  background: #BE3143;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+  z-index: 10;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #F1F1F0;
+  font-size: 30px;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #373B3D, #1B1A1D);
+}
+
+#welcome-section p {
+  text-align: center;
+  font-style: italic;
+  color: #B73142;
+}
+
+#projects {
+  background: #44557C;
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+#projects-title {
+  margin: 0 auto 6rem auto;
+  color: #F0F1F1;
+  border-bottom: 1px solid #F0F1F1;
+  font-size: 4.2rem;
+  max-width: 640px;
+}
+
+.project-tile {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.tile {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white
+}
+
+.tile:hover {
+  color: white;
+}
+
+.legende {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #303841;
+}
+
+.code {
+  color: #303841;
+  transition: color 0.3s ease-out;
+}
+
+.tile:hover .code {
+  color:orange;
+}
+
+.all {
+  background-color: #303841;
+  width: 20%;
+  margin: 10px auto;
+  color: white;
+  padding: 10px 0;
+  font-size: 2rem;
+  transition: background-color 0.3s ease-out;
+  border-radius: 4px;
+}
+
+.all:hover {
+  background-color: #BE3143;
+  color: white;
+}
+
+footer {
+  background-color: #303841;
+  width: 100%;
+  height: 90vh;
+}
+
+.work {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+
+.work h1 {
+  font-size: 5rem;
+  padding-bottom: 10px;
+}
+
+.work p {
+  font-size: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+hr {
+  margin-top: 180px;
+  border-color: #BE3143;
+  border-width: 3px;
+}
+
+.disclaimer {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 15px;
+}
